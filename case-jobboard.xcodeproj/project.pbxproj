@@ -14,6 +14,12 @@
 		688F72A42CE0207400D218C5 /* case_jobboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F72A32CE0207400D218C5 /* case_jobboardTests.swift */; };
 		688F72AE2CE0207400D218C5 /* case_jobboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F72AD2CE0207400D218C5 /* case_jobboardUITests.swift */; };
 		688F72B02CE0207400D218C5 /* case_jobboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F72AF2CE0207400D218C5 /* case_jobboardUITestsLaunchTests.swift */; };
+		688F72BD2CE0213E00D218C5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F72BC2CE0213E00D218C5 /* ProfileView.swift */; };
+		688F72BF2CE0229200D218C5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F72BE2CE0229200D218C5 /* LoginView.swift */; };
+		688F72C12CE0230B00D218C5 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F72C02CE0230B00D218C5 /* SignupView.swift */; };
+		688F72C32CE023A500D218C5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F72C22CE023A500D218C5 /* MainView.swift */; };
+		688F72C52CE0418D00D218C5 /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F72C42CE0418C00D218C5 /* RewardView.swift */; };
+		688F72C72CE04DF200D218C5 /* ProfileDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688F72C62CE04DF200D218C5 /* ProfileDisplayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		688F72A92CE0207400D218C5 /* case-jobboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "case-jobboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		688F72AD2CE0207400D218C5 /* case_jobboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = case_jobboardUITests.swift; sourceTree = "<group>"; };
 		688F72AF2CE0207400D218C5 /* case_jobboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = case_jobboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		688F72BC2CE0213E00D218C5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		688F72BE2CE0229200D218C5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		688F72C02CE0230B00D218C5 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		688F72C22CE023A500D218C5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		688F72C42CE0418C00D218C5 /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		688F72C62CE04DF200D218C5 /* ProfileDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDisplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +108,13 @@
 			children = (
 				688F72922CE0207300D218C5 /* case_jobboardApp.swift */,
 				688F72942CE0207300D218C5 /* ContentView.swift */,
+				688F72BC2CE0213E00D218C5 /* ProfileView.swift */,
+				688F72C62CE04DF200D218C5 /* ProfileDisplayView.swift */,
+				688F72BE2CE0229200D218C5 /* LoginView.swift */,
+				688F72C22CE023A500D218C5 /* MainView.swift */,
 				688F72962CE0207400D218C5 /* Assets.xcassets */,
+				688F72C42CE0418C00D218C5 /* RewardView.swift */,
+				688F72C02CE0230B00D218C5 /* SignupView.swift */,
 				688F72982CE0207400D218C5 /* Preview Content */,
 			);
 			path = "case-jobboard";
@@ -258,7 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				688F72952CE0207300D218C5 /* ContentView.swift in Sources */,
+				688F72C32CE023A500D218C5 /* MainView.swift in Sources */,
+				688F72C52CE0418D00D218C5 /* RewardView.swift in Sources */,
+				688F72BD2CE0213E00D218C5 /* ProfileView.swift in Sources */,
+				688F72BF2CE0229200D218C5 /* LoginView.swift in Sources */,
+				688F72C72CE04DF200D218C5 /* ProfileDisplayView.swift in Sources */,
 				688F72932CE0207300D218C5 /* case_jobboardApp.swift in Sources */,
+				688F72C12CE0230B00D218C5 /* SignupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"case-jobboard/Preview Content\"";
+				DEVELOPMENT_TEAM = RRBL33T8D5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"case-jobboard/Preview Content\"";
+				DEVELOPMENT_TEAM = RRBL33T8D5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -1,17 +1,16 @@
-//
-//  case_jobboardApp.swift
-//  case-jobboard
-//
-//  Created by Cao Gia Huy on 11/9/24.
-//
-
 import SwiftUI
 
 @main
-struct case_jobboardApp: App {
+struct CaseJobboardApp: App {
+    // Add any app-wide state here if needed
+    // @StateObject private var dataManager = DataManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
         }
     }
 }
+
